@@ -29,4 +29,57 @@ aside div h1 span {
 }
   
 /*Extra small devices */
+@media screen and (max-width:768px)  {
+  aside {
+    background-size: 10 100%;
+    padding: 60px 20px;
+  }
+
+  .ul_list li{
+    display: none;
+  }
+
+  .section i{
+    display:none
+  }
+  .Hamburger{
+    /* display: block;  */
+    padding:30px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  
+  .Hamburger i {
+    font-size: 30px; 
+    color: #0a0a0a;
+    cursor: pointer; 
+  }
+   
+
+  }
+
+
+
+ 
+
+
+
+ @media (max-width: 450px) {
+    aside {
+      background-size: 500px 300px;
+      padding: 60px 60px ;
+    }
+    .ul_list{
+      display: none;
+    }
+    .Hamburger i {
+      font-size: 30px; 
+      color: #0a0a0a;
+      cursor: pointer; 
+    }
+
+  } 
 
